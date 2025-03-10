@@ -24,7 +24,7 @@ const InputSearch = () => {
 
     return (
         <div className="relative px-8">
-            <input 
+            {/* <input 
                 placeholder="Masukan gejala yang ada..." 
                 className="w-64 rounded-md border-color-dark py-2 shadow-sm" 
                 ref={searchRef}
@@ -34,7 +34,13 @@ const InputSearch = () => {
             
             <button className="px-3 absolute py-2" onClick={handleSearch}>
                 <MagnifyingGlass size={24} />
-            </button>
+            </button> */}
+            <iframe
+    src="https://www.chatbase.co/chatbot-iframe/sLnXf5wtx8PtGxOs1vl9w"
+    width="100%"
+    className="height: 100%; h-96"
+    frameBorder="0"
+></iframe>
         </div>
     )
 }

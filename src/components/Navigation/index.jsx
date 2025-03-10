@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import SmallNav from "./SmallNav"
 import UserActionButton from "./UserActionButton"
+import Head from "next/head"
 
 const Navigation = () => {
 
